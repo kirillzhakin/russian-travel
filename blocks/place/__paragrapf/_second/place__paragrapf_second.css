@@ -1,0 +1,15 @@
+.place__paragrapf_second {
+  grid-area: paragrapf_second;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 29px;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .place__paragrapf_second {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
