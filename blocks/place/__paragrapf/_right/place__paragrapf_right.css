@@ -1,4 +1,4 @@
-.place__paragrapf_second_block {
+.place__paragrapf_right {
   grid-area: paragrapf_second;
   font-style: normal;
   font-weight: normal;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 768px) {
-  .place__paragrapf_second_block {
+  .place__paragrapf_right {
     font-size: 16px;
     line-height: 26px;
   }
