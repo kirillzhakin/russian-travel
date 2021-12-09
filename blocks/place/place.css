@@ -8,7 +8,7 @@
   grid-template-areas:
   "title url-heading"
   "image paragrapf"
-  "image paragrapf_second";
+  "image paragrapf";
   margin-top: 80px;
   align-items: flex-start;
 }
@@ -39,7 +39,7 @@
     "image"
     "image"
     "paragrapf"
-    "paragrapf_second";
+    "paragrapf";
     margin-top: 50px;
   }
 }

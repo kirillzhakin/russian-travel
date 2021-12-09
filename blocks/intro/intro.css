@@ -1,27 +1,28 @@
 .intro {
+  font-family: 'Inter-Bold';
   display: flex;
   flex-direction: column;
   max-width: 984px;
-  margin: 92px auto;
+  margin: 92px auto 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .intro {
     width: 90.625%;
-    margin: 92px auto;
+    margin: 92px auto 0 auto;
   }
 }
 
 @media screen and (max-width: 768px) {
   .intro {
-    width: 100%;
+    width: 93.75%;
     margin: 88px auto;
   }
 }
 
 @media screen and (max-width: 425px) {
   .intro {
-    width: 100%;
+    width: 90%;
     margin: 64px auto;
   }
 }
