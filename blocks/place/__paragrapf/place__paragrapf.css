@@ -6,6 +6,10 @@
   margin: 0;
 }
 
+.place__paragrapf:nth-of-type(2n) {
+  margin: 25px 0 0 0;
+}
+
 @media screen and (max-width: 768px) {
   .place__paragrapf {
     font-size: 16px;
