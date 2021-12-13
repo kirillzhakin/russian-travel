@@ -1,7 +1,6 @@
 .places {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
-  grid-template-rows: repeat(5, auto);
   margin: 12px auto 0 auto;
   max-width: 984px;
 }
@@ -29,6 +28,6 @@
 
 @media screen and (max-width: 560px) {
   .places {
-    width: 90%;
+    width: 100%;
   }
 }

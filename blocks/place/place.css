@@ -7,7 +7,6 @@
   row-gap: 48px;
   grid-template-areas:
   "title url-heading"
-  "image paragrapf"
   "image paragrapf";
   margin-top: 80px;
   align-items: flex-start;
@@ -37,8 +36,6 @@
     "title"
     "url-heading"
     "image"
-    "image"
-    "paragrapf"
     "paragrapf";
     margin-top: 50px;
   }

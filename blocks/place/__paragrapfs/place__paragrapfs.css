@@ -1,0 +1,10 @@
+.place__paragrapfs {
+  grid-area: paragrapf;
+}
+
+@media screen and (max-width: 560px) {
+  .place__paragrapfs {
+    width: 90%;
+    margin: 0 auto 0 auto;
+  }
+}

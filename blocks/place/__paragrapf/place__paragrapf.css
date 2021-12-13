@@ -3,11 +3,11 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 29px;
-  margin: 0;
+  margin: 25px 0 0 0;
 }
 
-.place__paragrapf:nth-of-type(2n) {
-  margin: 25px 0 0 0;
+.place__paragrapf:first-child  {
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
