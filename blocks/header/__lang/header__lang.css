@@ -12,11 +12,19 @@
   .header__lang:hover {
     opacity: 0.8;
   }
+
+  .header__lang:first-of-type {
+    margin: 18px 18px 6px auto;
+  }
   
-  @media screen and (max-width: 425px) {    
+  @media screen and (max-width: 425px) {
     .header__lang {
       margin: 14px 0 8px 0;
       font-size: 18px;
       line-height: 20px;
+    }
+
+    .header__lang:first-of-type {
+      margin: 14px 18px 8px auto;
     }
   }
