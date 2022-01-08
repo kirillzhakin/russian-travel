@@ -1,30 +1,20 @@
 .header {
   display: flex;
-  max-width: 1184px;
-  margin: 28px auto;
-}
-
-@media screen and (max-width: 1280px) {
-  .header {
-    width: 92.5%;
-  }
+  flex-direction: column;
+  max-width: 880px;
+  margin: 45px auto 0 auto;
+  border-bottom: 1px solid rgba(84, 84, 84, 1);
 }
 
 @media screen and (max-width: 1024px) {
   .header {
-    width: 90.625%;
-  }
-}
-
-@media screen and (max-width: 768px) {
-  .header {
-    margin: 16px auto;
-    width: 93.75%;
-  }
-}
-
-@media screen and (max-width: 320px) {
-  .header {
     width: 90%;
+  }
+}
+
+@media screen and (max-width: 715px) {
+  .header {
+    width: 100%;
+    margin: 28px auto 0 auto;
   }
 }
